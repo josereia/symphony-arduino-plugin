@@ -16,7 +16,8 @@
 </p>
   
 ## :scroll: Sobre
-Um programa para arduino que se conecta ao symphony desktop através da porta serial para sincronizar a cor da fita de led com a capa do album.
+Um programa para arduino que se conecta ao reprodutor de músicas symphony desktop através da porta serial. O objetivo é sincronizar a cor de uma fita de led comum com a cor de destaque da capa do album que está tocando.
+Para isso, foi utilizado um algoritimo de aproximação de cores, haja vista que as cores da fita de led são limitadas, e um emissor infravermelho trabalhando com a biblioteca IRremote.
 > A program for arduino that connects to symphony desktop through the serial port to synchronize the color of the led strip with the album cover.
 
 ## 🧰 Tecnologias usadas
