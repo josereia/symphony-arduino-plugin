@@ -24,6 +24,7 @@ Para isso, foi utilizado um algoritimo de aproximação de cores, haja vista que
 >Até o momento.
 - C++
 - Arduino
+- IRremote
 
 ## :computer: Plataformas suportadas
 >Até o momento.
