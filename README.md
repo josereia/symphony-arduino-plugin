@@ -29,6 +29,7 @@ Para isso, foi utilizado um algoritimo de aproximação de cores, haja vista que
 ## :computer: Plataformas suportadas
 >Até o momento.
 <p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
 </p>
 
