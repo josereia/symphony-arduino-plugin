@@ -4,7 +4,7 @@
   <p><img width="200px" src="assets/logo.png"></p>
   symphony arduino
   <p></p>
-  <a href="https://github.com/josereia/symphony-desktop">Repositório: symphony-desktop</a>
+  <a href="https://github.com/josereia/symphony-desktop" target="_blank">Repositório: symphony-desktop</a>
   <p></p>
 </h2>
 
