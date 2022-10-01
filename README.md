@@ -37,7 +37,12 @@
 >Esquema do arduino
 <p>Led infravermelho ligado ao pino 3.</p>
   <img src="assets/esquema.png"/>
-
+>Protótipo
+<p>Arduino Uno + Protoboard</p>
+<img src="assets/protoboard.jpg"/>
+>Fita de Led
+<img src="assets/led.jpg"/>
+<img src="assets/controladora.jpg"/>
 >Preview
 <p>Projeto rodando no Arduino Uno em conjunto ao reprodutor de músicas symphony-desktop.</p>
 <img src="assets/preview.gif" />
