@@ -4,8 +4,6 @@
   <p><img width="200px" src="assets/logo.png"></p>
   symphony arduino
   <p></p>
-  <a href="https://github.com/josereia/symphony-desktop" target="_blank">Repositório: symphony-desktop</a>
-  <p></p>
 </h2>
 
 <p>
@@ -18,15 +16,15 @@
 </p>
   
 ## :scroll: Sobre
-Um programa para arduino que se conecta ao reprodutor de músicas <b>symphony-desktop</b> através da porta serial. O objetivo é sincronizar a cor de uma fita de led comum com a cor de destaque da capa do album que está tocando.
-Para isso, foi utilizado um algoritimo de aproximação de cores, haja vista que as cores da fita de led são limitadas, e um emissor infravermelho trabalhando com a biblioteca IRremote.
-> A program for arduino that connects to symphony desktop through the serial port to synchronize the color of the led strip with the album cover.
+<p>Um programa para arduino que se conecta ao reprodutor de músicas <a href="https://github.com/josereia/symphony-desktop"><b>symphony-desktop</b></a> através da porta serial. O objetivo é sincronizar a cor de uma fita de led comum com a cor de destaque da capa do album que está tocando.</p>
+<p>Para isso, foi utilizado a porta serial do arduino que recebe a cor de destaque rgb, compara com as cores pré-definidas da fita de led e emite o comando/código correto através da biblioteca IRemote para o led infravermelho que transmite esse comando para a controladora da fita de led.</p>
+<p>No <a href="https://github.com/josereia/symphony-desktop"><b>symphony-desktop</b></a> foi usado um algoritimo de aproximação de cores para pegar a cor da fita de led mais próxima da cor de destaque do album, haja vista que as cores da fita de led comum são limitadas.</p>
 
 ## 🧰 Tecnologias usadas
 >Até o momento.
 - C++
-- Arduino
 - IRremote
+- Arduino
 
 ## :computer: Plataformas suportadas
 >Até o momento.
@@ -35,7 +33,12 @@ Para isso, foi utilizado um algoritimo de aproximação de cores, haja vista que
   <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
 </p>
 
-## 📷 Imagem do projeto
->Até o momento.
-  <img src="assets/screenshot.png">
+## 📷 Imagens do projeto
+>Esquema do arduino
+<p>Led infravermelho ligado ao pino 3.</p>
+  <img src="assets/esquema.png"/>
+
+>Preview
+<p>Projeto rodando no Arduino Uno em conjunto ao reprodutor de músicas symphony-desktop.</p>
+<img src="assets/preview.gif" />
   
